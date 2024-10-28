@@ -12,13 +12,6 @@ This is a Library Management API built with Laravel, allowing you to manage book
 - **Rate Limiting:** Throttled routes to prevent abuse.
 - **Unit Tests:** Unit tests are implemented for each route
 
-## Requirements
-
-- PHP >= 8.0
-- Composer
-- Laravel >= 9.x
-- MySQL or any relational database supported by Laravel
-
 ## Setup Instructions
 
 ### 1. Clone the Repository
@@ -42,20 +35,6 @@ Create a `.env` file by copying `.env.example`:
 
 ```bash
 cp .env.example .env
-```
-
-Update the following settings in the `.env` file:
-
-```bash
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=your_database_name
-DB_USERNAME=your_database_user
-DB_PASSWORD=your_database_password
-
-SANCTUM_STATEFUL_DOMAINS="localhost"
-SESSION_DOMAIN="localhost"
 ```
 
 ### 4. Generate Application Key
