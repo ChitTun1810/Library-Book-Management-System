@@ -41,7 +41,7 @@ class BookTest extends TestCase
                 'title' => 'New Book',
                 'isbn' => '123456789',
                 'author_id' => $author->id,
-                'published_date' => '2023-01-01',
+                'published_date' => '2024-10-26',
             ]);
 
         $response->assertStatus(201);
