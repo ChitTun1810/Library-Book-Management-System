@@ -17,8 +17,8 @@ This is a Library Management API built with Laravel, allowing you to manage book
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Emmo00/library-management-api.git
-cd library-management-api
+git clone https://github.com/ChitTun1810/Library-Book-Management-System
+cd Library-Book-Management-System
 ```
 
 ### 2. Install Dependencies
